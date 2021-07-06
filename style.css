@@ -126,8 +126,10 @@ ul{
 section.about{
     background: url(images/secondBg.jpg);
 }
+
+/* recipe section */
 section.recipe{
-    background: #f4f4f4;
+    background: #ffffff;
 }
 .recipe-top{
     width: 100%;
@@ -154,10 +156,44 @@ section.recipe{
 }
 .cust__col{
     border-radius: 15px;
-    background: #e0e0e0;
+    background: #f6f6f6;
     box-shadow:  7px 7px 11px #acacac,
              -7px -7px 11px #ffffff;
     margin: .5em;
 }
 
 
+/* customer review */
+
+section.customer {
+    background: #F6F6F6;
+    padding: 4em 0 2em;
+    margin-top: 1.5em;
+}
+/* it have default margin */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-weight: bold;
+    color: var(--primary);
+}
+.customer-list{
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer-container {
+    width: 100%;
+    background: #3D444A;
+    color: #fff;
+    padding: 3em 0;
+    text-align: center;
+}
+.footer-logo{
+    color:var(--secondery)
+}
