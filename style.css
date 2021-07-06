@@ -108,8 +108,20 @@ ul{
 
 /* second section start */
 
-.about-left #about-left-img{  
+/* .about-left #about-left-img{  
     width: 350px !important;
+} */
+
+.about-container{
+    padding-top: 3em;
+}
+.about-right{
+    transform: translate(5em ,7.1em);
+    overflow: hidden;
+}
+
+section.about{
+    background: url(images/secondBg.jpg);
 }
 
 
