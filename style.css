@@ -106,4 +106,10 @@ ul{
     text-align: center;
 }
 
+/* second section start */
+
+.about-left #about-left-img{  
+    width: 350px !important;
+}
+
 
