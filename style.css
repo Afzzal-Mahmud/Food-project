@@ -17,6 +17,9 @@ body{
 #spacer>*+*{
     margin-top: 2rem;
 }
+#spacer-about>*+*{
+    margin-top: 1.2rem;
+}
 
 
 /* working on hero and navigation bar */
@@ -122,6 +125,39 @@ ul{
 
 section.about{
     background: url(images/secondBg.jpg);
+}
+section.recipe{
+    background: #f4f4f4;
+}
+.recipe-top{
+    width: 100%;
+    text-align: center;
+    margin-bottom:3em;
+    padding-top: 2em;
+}
+.recipe-title{
+    margin-bottom: 1em;
+}
+.card{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1em .5em;
+}
+
+.card__img{
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    aspect-ratio: 1/0.7;
+    width: 100%;
+}
+.cust__col{
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 11px #acacac,
+             -7px -7px 11px #ffffff;
+    margin: .5em;
 }
 
 
