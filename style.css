@@ -8,16 +8,22 @@ body{
 /* primary color */
 :root{
     --primary:rgb(18, 85, 173);
+    --navigation:rgb(5, 7, 14);
+    --secondery:rgb(119, 112, 227);
 }
 /* working on hero and navigation bar */
-
+.hero-container{
+    background: url(images/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
 .nav-container{
-    width: 80%;
-    margin: 0 auto;
+   width: 100%;
+   background: var(--secondery);
 }
 a{
     text-decoration: none;
-    color: var(--primary);
+    color: var(--navigation);
 }
 nav{
     display: flex;
@@ -25,6 +31,8 @@ nav{
     align-items: center;
     min-height: 8vh;
     position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 ul{
     list-style: none;
@@ -40,8 +48,8 @@ ul{
 }
 .logo{
     font-size: 18px;
-    letter-spacing: 3px;
-    color: var(--primary);
+    letter-spacing: 3px; 
+    color: white;
 }
 .nav__links{
     display: flex;
