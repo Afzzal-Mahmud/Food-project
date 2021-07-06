@@ -3,6 +3,48 @@
     box-sizing: border-box;
 }
 body{
-    color: green;
     font-family: 'Poppins', sans-serif;
+}
+/* primary color */
+:root{
+    --primary:rgb(18, 85, 173);
+}
+/* working on hero and navigation bar */
+
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.nav__links li{
+    margin-right: 5px;
+}
+.active{
+    font-weight: bold;
+}
+.nav__links li:last-child{
+    margin-right: 0px;
+}
+.logo{
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: var(--primary);
+}
+.nav__links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
 }
