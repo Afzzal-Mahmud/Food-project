@@ -11,11 +11,19 @@ body{
     --navigation:rgb(5, 7, 14);
     --secondery:rgb(119, 112, 227);
 }
+
+/* utility class a spacial sibling silector for removing margin tension */
+
+#spacer>*+*{
+    margin-top: 2rem;
+}
+
+
 /* working on hero and navigation bar */
 .hero-container{
     background: url(images/hero.jpg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 .nav-container{
    width: 100%;
@@ -56,3 +64,46 @@ ul{
     justify-content: space-around;
     width: 45%;
 }
+
+/* start hero mian  section */
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.hero-container-main{
+    transform: translateY(5em);
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero-right-img{
+    width: 85%;
+}
+.title{
+    font-size: 2.4em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+#hero-span{
+    color: hsl(243, 75%, 45%);
+}
+/* button style */
+
+.btn{
+    width: 150px;
+    padding: .75em 1.25em;
+    display: block;
+    border-radius: 4.5em;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #25aae1, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    text-align: center;
+}
+
+
